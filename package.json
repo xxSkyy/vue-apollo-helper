@@ -1,0 +1,51 @@
+{
+  "name": "@xxskyy/vue-apollo-helper",
+  "version": "1.0.2",
+  "description": "Helpful Vue Apollo helpers",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test:coverage": "nyc yarn test",
+    "prepare": "install-peers",
+    "test": "NODE_ENV=test mocha -r ts-node/register src/**/*.spec.ts",
+    "test:dev": "mocha -r ts-node/register src/**/*.spec.ts --watch-extensions ts  --watch --watch-files src 'src/**/**.ts'"
+  },
+  "repository": {
+    "url": "https://github.com/xxSkyy/vue-apollo-helper"
+  },
+  "homepage": "https://github.com/xxSkyy/vue-apollo-helper",
+  "keywords": [
+    "vue-apollo",
+    "async",
+    "apollo",
+    "graphql",
+    "vue",
+    "async vue apollo"
+  ],
+  "author": {
+    "name": "xxSkyy",
+    "url": "https://github.com/xxSkyy"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.3.0",
+    "@types/mocha": "^9.1.0",
+    "@types/node": "^17.0.23",
+    "@types/redis": "^4.0.11",
+    "@types/sinon": "^10.0.11",
+    "chai": "^4.3.6",
+    "install-peers-cli": "^2.2.0",
+    "mocha": "^9.2.2",
+    "nyc": "^15.1.0",
+    "sinon": "^13.0.1",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.33"
+  }
+}
