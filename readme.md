@@ -1,5 +1,8 @@
 # Vue-Apollo V4 Helper
 
+[![npm](https://img.shields.io/npm/v/@xxskyy/vue-apollo-helper.svg)](https://www.npmjs.com/package/@xxskyy/vue-apollo-helper)
+[![npm type definitions](https://img.shields.io/npm/types/@xxskyy/vue-apollo-helper.svg)](https://www.npmjs.com/package/@xxskyy/vue-apollo-helper)
+
 It's small library to make your Vue-apollo experince smoother and less complicated.
 
 ## Features
